@@ -5,7 +5,7 @@ func sum(a, b float64) float64 {
 }
 
 func subtractNeverNegative(a, b float64) float64 {
-	if a >= b {
+	if a > b {
 		return a - b
 	}
 	return a
