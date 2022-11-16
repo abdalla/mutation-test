@@ -16,3 +16,12 @@ make test
 To do some tests around it, you can take a look at the comments inside the code and change and run the tests again.
 
 Hope you enjoy it and let's use mutation tests.
+
+## BRANCHES
+[main](https://github.com/abdalla/mutation-test/tree/main) - All Good
+
+[mt-broken](https://github.com/abdalla/mutation-test/tree/mt-broken) - Mutation tests broken
+
+[fuzzing](https://github.com/abdalla/mutation-test/tree/fuzzing) - fuzzing working
+
+[fz-broken](https://github.com/abdalla/mutation-test/tree/fz-broken) - Fuzzing tests broken
