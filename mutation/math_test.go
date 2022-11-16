@@ -34,8 +34,8 @@ func TestSubtractNeverNegative(t *testing.T) {
 	// Although you put the >= in the line 9 on math.go file,
 	// the mutation test still failing cuz u are not testing it.
 	// so, uncomment the code bellow
-	// result = math.SubtractNeverNegative(a, a)
-	// if result != 0 {
-	// 	t.Error("Errorrrrr")
-	// }
+	result = math.SubtractNeverNegative(a, a)
+	if result != 0 {
+		t.Error("Errorrrrr")
+	}
 }
